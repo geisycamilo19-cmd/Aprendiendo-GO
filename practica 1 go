@@ -5,11 +5,11 @@ import "fmt"
 func main() {
 
 	//declaracion de variables
-	var name string = "geisy"
+	name := "geisy"
 	var edad = 18
-	var meta string = "Deseo trabajar en la nasa"
-	const pais string = "rep dom"
-	
+	meta := "Deseo trabajar en la nasa"
+	pais := "rep dom"
+
 	//impresion de mensaje
 	fmt.Println("Hola, me llamo", name, "tengo", edad, "anos, y mi meta profesional es la siguiente:", meta, "y por otro lado vivo en:", pais)
 }
