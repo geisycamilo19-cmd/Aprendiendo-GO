@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	par := 0
+	impar := 0
+
+	//bucle de conteo del 1 al 20 y condicional de especificar cuando es par e impar
+	for i := 1; i <= 20; i++ {
+		if i%2 == 0 {
+			par++
+			fmt.Println("par", i)
+		} else {
+			impar++
+			fmt.Println("impar", i)
+		}
+	}
+
+
+	//total de numeros pares e impares
+	fmt.Println("total de pares", par)
+	fmt.Println("total de impares", impar)
+}
