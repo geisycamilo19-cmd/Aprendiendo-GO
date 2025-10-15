@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	//bucle de conteo del 1 al 10
+	for i := 1; i <= 10; i++ {
+		if i%2 == 0 {
+			fmt.Println("Encontraste un tesoro")
+		} else if i%3 == 0 {
+			fmt.Println("Encontraste un enemigo")
+		} else {
+			fmt.Println("Todo tranquilo en este paso...")
+		}
+	}
+
+	//mensaje final
+	fmt.Println("El camino ha termiando")
+}
