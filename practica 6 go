@@ -3,13 +3,14 @@ package main
 import "fmt"
 
 // Def  de la funcion
-func saludar(nombre string) {
-	fmt.Println("Hola,", nombre, "!")
+func saludo(noame string) {
+	fmt.Println("Hi,", name)
 }
 
 func main() {
-	// Llamadas a la función
-	saludar("Geisy")
-	saludar("Juan")
-	saludar("Ana")
+	// Llamadas a la funcion
+	saludo("Geisy")
+	saludo("Juan")
+	saludo("Lia")
+	saludo ("Sonya")
 }
