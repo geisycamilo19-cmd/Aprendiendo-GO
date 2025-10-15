@@ -1,6 +1,6 @@
 package main
 
-impotr "fmt"
+import "fmt"
 
 func main() {
 
@@ -10,17 +10,15 @@ func main() {
 
 	//
 	if edad >= 18 {
-		"Eres mayor de edad"
-	}else { 
-	"Eres menor de edad"
+		fmt.Println("Eres mayor de edad")
+	} else {
+		fmt.Println("Eres menor de edad")
 	}
-	
-	if pais== "rep dom" {
-	"eres dominicano"	
-	}
-	
-	else if pais != "rep dom" {
-	"jaja eres haitiano"	
+
+	if pais == "rep dom" {
+		fmt.Println("eres dominicano")
+	} else if pais != "rep dom" {
+		fmt.Println("jaja eres haitiano")
 	}
 
 }
