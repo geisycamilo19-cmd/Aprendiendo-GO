@@ -1,0 +1,28 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	//bucle for que imprime del -1 al 5
+	for j := -1; j <= 5; j++ {
+		fmt.Println("Num:", j)
+	}
+
+	//bucle for que imprime del 5 al 1
+	for j := 5; j >= 1; j-- {
+		fmt.Println("Num:", j)
+	}
+
+	//bucle que hace conteo hasta el 3 y luego se rompe
+	cont := 0
+	for {
+		fmt.Println("Repeticion num:", cont)
+		cont++
+		if cont == 3 {
+			fmt.Println("Fin")
+			break
+		}
+	}
+
+}
