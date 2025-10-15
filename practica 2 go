@@ -1,0 +1,26 @@
+package main
+
+impotr "fmt"
+
+func main() {
+
+	//declaracion de variables
+	edad := 11
+	pais := "rep dom"
+
+	//
+	if edad >= 18 {
+		"Eres mayor de edad"
+	}else { 
+	"Eres menor de edad"
+	}
+	
+	if pais== "rep dom" {
+	"eres dominicano"	
+	}
+	
+	else if pais != "rep dom" {
+	"jaja eres haitiano"	
+	}
+
+}
