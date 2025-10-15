@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // Def  de la funcion
-func saludo(noame string) {
+func saludo(name string) {
 	fmt.Println("Hi,", name)
 }
 
@@ -12,5 +12,5 @@ func main() {
 	saludo("Geisy")
 	saludo("Juan")
 	saludo("Lia")
-	saludo ("Sonya")
+	saludo("Sonya")
 }
