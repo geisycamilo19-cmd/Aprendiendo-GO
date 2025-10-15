@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+// Def  de la funcion
+func saludar(nombre string) {
+	fmt.Println("Hola,", nombre, "!")
+}
+
+func main() {
+	// Llamadas a la función
+	saludar("Geisy")
+	saludar("Juan")
+	saludar("Ana")
+}
