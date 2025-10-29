@@ -1,0 +1,27 @@
+package main
+
+import "fmt"
+
+// Funcion que evalua si un num es par, impar o multiplo de 5
+func evaluarNum(n int) string {
+
+	if n%5 == 0 && n%2 == 0 {
+		return "Multiplo de 5 y Par"
+	} else if n%5 == 0 {
+		return "Multiplo de 5"
+	} else if n%2 == 0 {
+		return "Par"
+	} else {
+		return "Impar"
+	}
+}
+
+//Print de resultados segun el num
+func main() {
+	// Pruebas con distintos numeros
+	fmt.Println("El numero 10 es:", evaluarNum(10))
+	fmt.Println("El numero 7 es:", evaluarNum(7))
+	fmt.Println("El numero 25 es:", evaluarNum(25))
+	fmt.Println("El numero 4 es:", evaluarNum(4))
+	fmt.Println("El numero 9 es:", evaluarNum(9))
+}
