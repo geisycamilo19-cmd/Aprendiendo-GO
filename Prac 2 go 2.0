@@ -1,0 +1,33 @@
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
+
+func main() {
+
+	var name string
+	var edad int
+	var sueno string
+	var place string
+
+	reader := bufio.NewReader(os.Stdin)
+
+	fmt.Print("Introduce tu nombre completo: ")
+	name, _ := reader.ReadString('\n')
+
+	fmt.Print("Introduce tu edad: ")
+	fmt.Scanln(&edad)
+
+	reader.ReadString('\n')
+
+	fmt.Print("Introduce tu sueño o meta profesinoal: ")
+	sueno, _ := reader.ReadString('\n')
+
+	fmt.Print("Introduce donde vivesc (Ciudad y pais): ")
+	place, _ := reader.ReadString('\n')
+
+	fmt.Println("Hola,", name, ",tienes", edad, ",vives en", place, ",y tu meta es ")
+}
