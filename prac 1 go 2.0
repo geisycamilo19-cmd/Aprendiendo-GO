@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	//declaracion de variable nombre
+	var nombre string
+
+	//impresion de mandato usuario
+	fmt.Print("Ingresa tu nombre: ")
+	fmt.Scanln(&nombre)
+
+	//declaracion de variable edad
+	var edad int
+
+	//impresion de edad
+	fmt.Print("Ingresa tu edad: ")
+	fmt.Scanln(&edad)
+
+	//impresion de mensaje completo
+	fmt.Println("Hola", nombre, "tienes", edad, "años")
+
+}
